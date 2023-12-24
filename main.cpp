@@ -35,6 +35,7 @@ int main() {
     }
     std :: cout << "The game lasted " << n << " rounds\n";
     std :: cout << "You got " << pt_a << " points while your opponent got " << pt_rd << " points\n";
+    std :: cout << "You got " << (double)pt_a / n << " points per round\n";
     delete []rd_arr;
     delete []a_arr;
     return 0;
