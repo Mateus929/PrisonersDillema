@@ -1,6 +1,5 @@
 implement "yourStrategy" class in "yourStrategy.h" file.
 
-run commands in terminal for compiling
-
+run commands in terminal for compiling:
 g++ *.cpp
-./a.exe
+./a.out
