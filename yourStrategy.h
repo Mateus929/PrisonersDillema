@@ -18,7 +18,10 @@ class yourStrategy {
 private:
     // declare other
 public:
-    /// IMPORTANT!!! if you allocated memory locally, please deallocate it in a destructor.
+    yourStrategy(){
+        // implement this or leave it blank
+    };
+    /// IMPORTANT!!! If you allocated memory locally, please deallocate it in a destructor.
     ~yourStrategy(){
         // implement this or leave it blank
     };
